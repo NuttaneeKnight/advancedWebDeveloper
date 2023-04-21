@@ -24,3 +24,45 @@ color: red;
 button: active {
 color: green;
 }
+
+**Sample Code for 3D animation button effect**
+Give it a try! and do not for get to link your css to the index.html 😁
+
+body {
+background: #fcd04b;
+font-family: 'Lato';
+color: white;
+}
+
+h1 {
+font-weight: 300;
+text-align:center;
+}
+
+.btn {
+outline: none;
+border: none;
+cursor: pointer;
+display: block;
+position: relative;
+background: #fcad26;
+font-size: 16px;
+font-weight: 300;
+color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+padding: 25px 80px;
+margin: 0 auto;
+box-shadow: 0 6px #efa424;
+border-radius: 20px;
+}
+
+.btn:hover {
+box-shadow: 0 4px #efa424;
+top: 2px;
+}
+
+.btn:active {
+box-shadow: 0 0 #efa424;
+top: 6px;
+}
