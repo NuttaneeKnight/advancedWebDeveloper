@@ -66,3 +66,10 @@ top: 2px;
 box-shadow: 0 0 #efa424;
 top: 6px;
 }
+
+**_Rotations_** Using CSS to rotate things
+// useful when you are downloading something,
+takes only one parameter for the degree of the item that you want to rotate.
+div {
+transform: rotate(45deg);
+}
