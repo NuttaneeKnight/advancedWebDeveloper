@@ -73,3 +73,5 @@ takes only one parameter for the degree of the item that you want to rotate.
 div {
 transform: rotate(45deg);
 }
+
+!! Use Autoprefixer extention to accommodate your current browser. 
