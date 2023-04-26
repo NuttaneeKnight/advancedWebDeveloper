@@ -78,44 +78,12 @@ transform: rotate(45deg);
 The prefixer do change so use the autoprefixer for the most current ones that will support the browser that you will be using.
 
 **4 Transition properties**
-1. tansition-duration
-2. transition-property
-3.transition-timing-function 
-4.transition-delay 
+
+1. tansition-duration => how long should the transition last? transition-duration: 1s;
+2. transition-property => What properties should be transitioned? transition-property: background;
+3. transition-timing-function
+4. transition-delay
 
 https://codepen.io/Colt/pen/GEbbLO
 
-<p class="box">NO TRANSITION</p>
-<p class="animated box">TRANSITION</p>
-<p class="crazy box">CRAZINESS</p>
-
-.box {
-  background: #9b59b6;
-  height: 200px;
-  width: 200px;
-  line-height:200px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-}
-
-.animated {
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-
-.box:hover {
-  background: #e74c3c;
-}
-
-.crazy {
-  transition: transform 3s 1s, background 1s 1s;
-}
-
-.crazy:hover {
-  transform: rotate(720deg) scale(0.5);
-  background: #e67e22;
-  border-radius: 100px;
-}
-
+https://codepen.io/Colt/pen/MoMNEw
