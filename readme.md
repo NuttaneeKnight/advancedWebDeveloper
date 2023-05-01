@@ -81,9 +81,11 @@ The prefixer do change so use the autoprefixer for the most current ones that wi
 
 1. tansition-duration => how long should the transition last? transition-duration: 1s;
 2. transition-property => What properties should be transitioned? transition-property: background;
-3. transition-timing-function => What's the "acceleration curve" for the transition?: transition-timing-function: ease-in;
+3. transition-timing-function => What's the "acceleration curve" for the transition?: transition-timing-function: ease-in; https://easings.net/
 4. transition-delay
 
 https://codepen.io/Colt/pen/GEbbLO
 
 https://codepen.io/Colt/pen/MoMNEw
+
+https://codepen.io/Colt/pen/JrqepQ
