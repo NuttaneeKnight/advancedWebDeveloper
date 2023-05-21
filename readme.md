@@ -113,3 +113,8 @@ transform: translateX(300px)
 background-color:teal;
 }
 
+<What shoulld be transitioned?>
+   tanslate()
+   scale()
+   rotate()
+   opacity
