@@ -99,8 +99,9 @@ ease-in <timing-function>
 1 <delay>
 
 .animated {
-transition-property: transform;
+transition: transform 2s ease-out 1s;
+<!-- transition-property: transform;
 transition-duration: 2s
 transition-timing-function: cubic-bezier(0.050, 0.005, 0.000, 0.870)
-transition-delay: 1s;
+transition-delay: 1s; -->
 }
