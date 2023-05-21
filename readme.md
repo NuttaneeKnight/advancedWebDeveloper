@@ -90,7 +90,7 @@ https://codepen.io/Colt/pen/MoMNEw
 
 https://codepen.io/Colt/pen/JrqepQ
 
-<Shorthand Transitions>
+<Shorthand Transitions> Takes 4 properties and combine into one
 
 transistion: background 1.5s ease-in 1;
 background <property>
@@ -99,14 +99,17 @@ ease-in <timing-function>
 1 <delay>
 
 .animated {
-transition: transform 2s ease-out 1s;
+transition: transform 2s ease-out 1s, background-color 0.5s linear;
+
 <!-- transition-property: transform;
 transition-duration: 2s
 transition-timing-function: cubic-bezier(0.050, 0.005, 0.000, 0.870)
 transition-delay: 1s; -->
+
 }
 
 .box: hover{
-   transform: translateX(300px)
-   background-color:teal; 
+transform: translateX(300px)
+background-color:teal;
 }
+
