@@ -89,3 +89,12 @@ https://codepen.io/Colt/pen/GEbbLO
 https://codepen.io/Colt/pen/MoMNEw
 
 https://codepen.io/Colt/pen/JrqepQ
+
+<Shorthand Transitions>
+
+transistion: background 1.5s ease-in 1;
+   background <property>
+   1.5s <duration>
+   ease-in <timing-function>
+   1 <delay>
+
