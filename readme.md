@@ -105,3 +105,8 @@ transition-duration: 2s
 transition-timing-function: cubic-bezier(0.050, 0.005, 0.000, 0.870)
 transition-delay: 1s; -->
 }
+
+.box: hover{
+   transform: translateX(300px)
+   background-color:teal; 
+}
