@@ -119,4 +119,5 @@ scale()
 rotate()
 opacity
 
-https://codepen.io/Colt/pen/WOjjJZ
+https://codepen.io/Colt/pen/OjJbLo?editors=1100 >> Starter code
+https://codepen.io/Colt/pen/WOjjJZ >> Finished Code sample
