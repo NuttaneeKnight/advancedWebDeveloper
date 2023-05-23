@@ -114,8 +114,9 @@ background-color:teal;
 }
 
 <What shoulld be transitioned?> ref: https://web.dev/animations-guide/
-   tanslate()
-   scale()
-   rotate()
-   opacity
+tanslate()
+scale()
+rotate()
+opacity
 
+https://codepen.io/Colt/pen/WOjjJZ
