@@ -121,3 +121,27 @@ opacity
 
 https://codepen.io/Colt/pen/OjJbLo?editors=1100 >> Starter code
 https://codepen.io/Colt/pen/WOjjJZ >> Finished Code sample
+
+<Example>
+
+HTML
+<!-- <h1>An Image Gallery</h1>
+<div class="container">
+<div class="item red">
+	<img src="https://preview.ibb.co/gQbzQ5/colt_steele_firemarshall.jpg"/>
+	<i class="fa fa-camera"></i>
+</div>
+
+<div class="item blue">
+	<img src="http:i.imgur.com/AhCfhrF.jpg"/>
+	<i class="fa fa-paw"></i>
+</div>
+
+<div class="item green">
+	<img src="http://preview.ibb.co/kd9Esk/colt_steele_smugglerscave.jpg"/>
+	<i class="fa fa-cloud"></i>
+</div>
+  
+  </div> -->
+
+CSS
