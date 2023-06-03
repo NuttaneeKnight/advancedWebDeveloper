@@ -270,3 +270,31 @@ Rainbow text color with different sizes while transitioning
 - 50% color:yellow, font-size:40px
 - 75% color:green
 - 100% color:blue, font-size:20px
+
+Make the rainbow text >> go to codepen https://codepen.io/Colt/pen/NvKjEx?editors=1100
+
+Keyframe Syntax:
+- Step 1: Define
+
+ @keyframes rainbowtext{
+  0% {
+    color: red;
+    font-size: 20px;
+  },
+  25% {
+    color: orange;
+  },
+  50% {
+    color: yellow;
+    font-size: 40px;
+  },
+  75% {
+    color: green;
+  },
+  100% {
+    color: blue;
+    font-size: 20px;
+  }
+ }
+
+ 
