@@ -263,6 +263,10 @@ Going from state A to state B to state C to state D to state E....
 - For example the sun rises and sets
 - have more constrols because we have more steps in between the transition (duration, interval)
 
-Ex. of the interval break down into quarter and translate to CSS
+Ex. of the interval break down into quarter and translate to CSS 
+Rainbow text color with different sizes while transitioning 
 - 0% color:red, font-size:20px
 - 25% color:orange
+- 50% color:yellow, font-size:40px
+- 75% color:green
+- 100% color:blue, font-size:20px
