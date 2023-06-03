@@ -315,7 +315,7 @@ All the usual suspects are here...
  - animation-delay
 
 Let's take a look at some of  the other "newer" animation properties
- - animation-iteration-count
- - animation-fill-mode
- - anmation-direction
- - animation-play-state
+ - animation-iteration-count >> how many times do you want the animation to run, take in integer or infinite
+ - animation-fill-mode >> specifies how and animation should apply styles before and after the animation, such as  forwards, backwards, both, none
+ - anmation-direction >> forward, reverse, alternate
+ - animation-play-state >> 
