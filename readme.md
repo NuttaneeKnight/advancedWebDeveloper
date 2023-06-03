@@ -259,3 +259,10 @@ Going from state A to B
 - We have the cotrol over the duration of how long does the transition take
 
 Ex. Keyframes
+Going from state A to state B to state C to state D to state E....
+- For example the sun rises and sets
+- have more constrols because we have more steps in between the transition (duration, interval)
+
+Ex. of the interval break down into quarter and translate to CSS
+- 0% color:red, font-size:20px
+- 25% color:orange
