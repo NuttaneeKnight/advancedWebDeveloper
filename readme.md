@@ -248,3 +248,14 @@ div.item:hover i {
 
 **Keyframe Animations** 
 
+- Transitions allow us to animate "a single state change"
+- Keyframes allow for much more complex "multi-state animations"
+
+Ex.Transitions
+
+A ----------> B
+Going from state A to B
+- We can transition the color of A from orange to red
+- We have the cotrol over the duration of how long does the transition take
+
+Ex. Keyframes
