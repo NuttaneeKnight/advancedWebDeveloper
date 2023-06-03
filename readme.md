@@ -306,4 +306,16 @@ p {
   animation-iteration-count: infinite;
 }
 
+Keyframes syntax
 
+All the usual suspects are here...
+ - animation name
+ - animation duration
+ - animation-timing-function
+ - animation-delay
+
+Let's take a look at some of  the other "newer" animation properties
+ - animation-iteration-count
+ - animation-fill-mode
+ - anmation-direction
+ - animation-play-state
