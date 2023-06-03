@@ -296,5 +296,12 @@ Keyframe Syntax:
     font-size: 20px;
   }
  }
+- Step 2: Apply the animation
 
- 
+p {
+  animation-name: rainbowtext;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
