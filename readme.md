@@ -308,14 +308,22 @@ p {
 
 Keyframes syntax
 
-All the usual suspects are here...
+All the usual suspects are here... We saw that from the code pen above
  - animation name
  - animation duration
  - animation-timing-function
  - animation-delay
 
 Let's take a look at some of  the other "newer" animation properties
- - animation-iteration-count >> how many times do you want the animation to run, take in integer or infinite
- - animation-fill-mode >> specifies how and animation should apply styles before and after the animation, such as  forwards, backwards, both, none
- - anmation-direction >> forward, reverse, alternate
- - animation-play-state >> 
+ - animation-iteration-count >> how many times do you want the animation to run, take in 
+                                integer or 
+                                infinite
+ - animation-fill-mode >> specifies how and animation should apply styles before and after the animation, such as  
+                          forwards, backwards, both, none only hover and it lingers and it stays and take that percentage of the animation
+ - anmation-direction >> 
+                          forward, 
+                          reverse, 
+                          alternate
+ - animation-play-state >> specifies whether the animation is running or paused
+                          paused (most used)
+                          running
