@@ -327,4 +327,4 @@ Let's take a look at some of  the other "newer" animation properties
  - animation-play-state >> specifies whether the animation is running or paused
                           paused (most used)
                           running
-testing
+testing tesiting
