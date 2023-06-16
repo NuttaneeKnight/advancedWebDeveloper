@@ -25,6 +25,8 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  animation-name: sunmotion;
+  animation-duration: 5s;
 }
 
 @keyframes cycleskycolors {
@@ -49,5 +51,10 @@ body {
 }
 
 @keyframes sunmotion {
-  
+  0% {
+    transform: translate(0px, 0px)
+  }
+  100% {
+    transform:translate(1920px, 0px)
+  }
 }
