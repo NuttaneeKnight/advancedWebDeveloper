@@ -330,3 +330,10 @@ Let's take a look at some of  the other "newer" animation properties
 
 Making the animated SUN/SKY Exercise
 
+# Shorthand Animations
+
+animation: 3s ease-in 1s 2 reverse both paused slidein; //bad for readibility
+animation: changecolor 3s linear 1s infinite
+animation: jiggle 4s; 
+
+animation: slideRight 2s ease-in;
