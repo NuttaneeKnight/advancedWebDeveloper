@@ -125,6 +125,7 @@ https://codepen.io/Colt/pen/WOjjJZ >> Finished Code sample
 <Example>
 
 HTML
+
 <!-- <h1>An Image Gallery</h1>
 <div class="container">
 <div class="item red">
@@ -141,10 +142,11 @@ HTML
 	<img src="http://preview.ibb.co/kd9Esk/colt_steele_smugglerscave.jpg"/>
 	<i class="fa fa-cloud"></i>
 </div>
-  
+
   </div> -->
 
 CSS
+
 <!-- @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
@@ -225,7 +227,7 @@ div.item.green i {
 
 div.item:hover img {
   opacity: 0.3;
-  filter: grayscale(100%) 
+  filter: grayscale(100%)
 }
 
 div.item * {
@@ -243,10 +245,10 @@ div.item i {
 
 div.item:hover i {
   transform: translate(-50%, -50%) scale(1);
-  transition: a;; 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+  transition: a;; 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 } -->
 
-**Keyframe Animations** 
+**Keyframe Animations**
 
 - Transitions allow us to animate "a single state change"
 - Keyframes allow for much more complex "multi-state animations"
@@ -255,16 +257,19 @@ Ex.Transitions
 
 A ----------> B
 Going from state A to B
+
 - We can transition the color of A from orange to red
 - We have the cotrol over the duration of how long does the transition take
 
 Ex. Keyframes
 Going from state A to state B to state C to state D to state E....
+
 - For example the sun rises and sets
 - have more constrols because we have more steps in between the transition (duration, interval)
 
-Ex. of the interval break down into quarter and translate to CSS 
-Rainbow text color with different sizes while transitioning 
+Ex. of the interval break down into quarter and translate to CSS
+Rainbow text color with different sizes while transitioning
+
 - 0% color:red, font-size:20px
 - 25% color:orange
 - 50% color:yellow, font-size:40px
@@ -274,59 +279,63 @@ Rainbow text color with different sizes while transitioning
 Make the rainbow text >> go to codepen https://codepen.io/Colt/pen/NvKjEx?editors=1100
 
 Keyframe Syntax:
+
 - Step 1: Define
 
- @keyframes rainbowtext{
-  0% {
-    color: red;
-    font-size: 20px;
-  },
-  25% {
-    color: orange;
-  },
-  50% {
-    color: yellow;
-    font-size: 40px;
-  },
-  75% {
-    color: green;
-  },
-  100% {
-    color: blue;
-    font-size: 20px;
-  }
- }
+@keyframes rainbowtext{
+0% {
+color: red;
+font-size: 20px;
+},
+25% {
+color: orange;
+},
+50% {
+color: yellow;
+font-size: 40px;
+},
+75% {
+color: green;
+},
+100% {
+color: blue;
+font-size: 20px;
+}
+}
+
 - Step 2: Apply the animation
 
 p {
-  animation-name: rainbowtext;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+animation-name: rainbowtext;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
 }
 
 Keyframes syntax
 
 All the usual suspects are here... We saw that from the code pen above
- - animation name
- - animation duration
- - animation-timing-function
- - animation-delay
 
-Let's take a look at some of  the other "newer" animation properties
- - animation-iteration-count >> how many times do you want the animation to run, take in 
-                                integer or 
-                                infinite
- - animation-fill-mode >> specifies how and animation should apply styles before and after the animation, such as  
-                          forwards, backwards, both, none only hover and it lingers and it stays and take that percentage of the animation
- - anmation-direction >> 
-                          forward, 
-                          reverse, 
-                          alternate
- - animation-play-state >> specifies whether the animation is running or paused
-                          paused (most used)
-                          running
+- animation name
+- animation duration
+- animation-timing-function
+- animation-delay
+
+Let's take a look at some of the other "newer" animation properties
+
+- animation-iteration-count >> how many times do you want the animation to run, take in
+  integer or
+  infinite
+- animation-fill-mode >> specifies how and animation should apply styles before and after the animation, such as  
+   forwards, backwards, both, none only hover and it lingers and it stays and take that percentage of the animation
+- anmation-direction >>
+  forward,
+  reverse,
+  alternate
+- animation-play-state >> specifies whether the animation is running or paused
+  paused (most used)
+  running
 
 Making the animated SUN/SKY Exercise
 
@@ -334,6 +343,6 @@ Making the animated SUN/SKY Exercise
 
 animation: 3s ease-in 1s 2 reverse both paused slidein; //bad for readibility
 animation: changecolor 3s linear 1s infinite
-animation: jiggle 4s; 
+animation: jiggle 4s;
 
-animation: slideRight 2s ease-in;
+animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
