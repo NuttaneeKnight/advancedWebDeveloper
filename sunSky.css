@@ -6,6 +6,11 @@
 body {
   margin: 0 0 0 0;
   background-color: #2c3e50;
+  animation-name: cycleskycolors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0;
 }
 
 .grass {
@@ -24,15 +29,25 @@ body {
 
 @keyframes cycleskycolors {
   0% {
-    background-color: black;
+    background: #2c3e50;
   }
   10% {
-    background-color: pink;
+    background: pink;
+  }
+  30% {
+    background: #3498db;
+  }
+  70%{
+    background: #3498db;
   }
   90% {
-    background-color: pink;
+    background: pink;
   }
   100% {
-    background-color: black;
+    background: #2c3e50;
   }
+}
+
+@keyframes sunmotion {
+  
 }
