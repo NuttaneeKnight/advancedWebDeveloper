@@ -27,6 +27,8 @@ body {
   border-radius: 50%;
   animation-name: sunmotion;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes cycleskycolors {
@@ -53,6 +55,16 @@ body {
 @keyframes sunmotion {
   0% {
     transform: translate(0px, 0px)
+  }
+  25% {
+    transform:translate(330px, 0px)
+  }
+  50% {
+    transform:translate(860px, -50px) 
+    /* the sun is out of the frame a bit */
+  }
+  75% {
+    transform:translate(1390x, 0px)
   }
   100% {
     transform:translate(1920px, 0px)
