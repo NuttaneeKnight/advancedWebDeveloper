@@ -25,6 +25,8 @@ h2 {
   animation: appear 1s 3s forwards;
 }
 
+/* with forwards it makes the animation stays */
+
 .container{
   margin:4em;
   text-align: center;
@@ -78,3 +80,11 @@ h2 {
 }
 
 /* The scale 1.1 is to make it bigger */
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
