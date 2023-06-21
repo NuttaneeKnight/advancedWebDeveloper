@@ -346,3 +346,8 @@ animation: changecolor 3s linear 1s infinite
 animation: jiggle 4s;
 
 animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
+
+# Loading animation https://codepen.io/Colt/pen/OjPwmL?editors=1100
+ - Other Loader - https://codepen.io/RRoberts/pen/pEXWEp
+
+
