@@ -357,4 +357,12 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
     "It's a more efficient way to lay out, align and distribute space among items in a container"
     even if their size is unknown
 
-
+# The anatomy of flexbox
+- Imagine you have three items in a container
+- There are some potential ways to arrange them
+  1. Shift all three to the left
+  2. Shift all three to the right
+  3. Space evenly between 
+  4. Make the middle box 2 times bigger than the left and the right one
+  5. Make the left one 3 times bigger while the other two on the rights are smaller
+   etc.
