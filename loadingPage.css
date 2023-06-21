@@ -37,4 +37,5 @@ h2 {
   height: 120px;
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
+  border-radius: 50%;
 }
