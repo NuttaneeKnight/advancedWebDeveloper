@@ -365,4 +365,5 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
   3. Space evenly between 
   4. Make the middle box 2 times bigger than the left and the right one
   5. Make the left one 3 times bigger while the other two on the rights are smaller
-   etc.
+  6. What about going vertical?
+  7. There are many ways, etc.
