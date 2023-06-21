@@ -367,3 +367,5 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
   5. Make the left one 3 times bigger while the other two on the rights are smaller
   6. What about going vertical?
   7. There are many ways, etc.
+
+Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
