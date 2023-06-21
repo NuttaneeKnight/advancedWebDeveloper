@@ -351,3 +351,10 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
  - Other Loader - https://codepen.io/RRoberts/pen/pEXWEp
 
 
+# CSS Flexbox
+
+ - What is Flexbox? 
+    "It's a more efficient way to lay out, align and distribute space among items in a container"
+    even if their size is unknown
+
+
