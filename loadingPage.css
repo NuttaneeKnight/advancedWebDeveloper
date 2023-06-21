@@ -38,7 +38,10 @@ h2 {
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
   border-radius: 50%;
+  animation: spin 2s linear infinite;
 }
+
+/* Set the animation in the bottom then assign it to .loader at the top under animation syntax */
 
 @keyframes spin {
   0% {
