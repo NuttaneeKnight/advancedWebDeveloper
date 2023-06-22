@@ -366,6 +366,19 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
   4. Make the middle box 2 times bigger than the left and the right one
   5. Make the left one 3 times bigger while the other two on the rights are smaller
   6. What about going vertical?
-  7. There are many ways, etc.
+  7. There are many ways, etc. Flexbox will help 
 
 Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+# Container Properties
+  - flex-direction
+  - justify-content
+  - flex-wrap
+  - align-items
+  - align-content
+# Flex ITem Properties
+  - order
+  - flex
+  - flex-grow
+  - flex-shrink
+  - align-self
