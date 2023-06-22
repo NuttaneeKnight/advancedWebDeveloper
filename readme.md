@@ -370,13 +370,13 @@ animation: slideRight 2s ease-in infinite 2s reverse; (long shorthand)
 
 Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-# Container Properties
+# Container Properties (the container itself that holds the item)
   - flex-direction
   - justify-content
   - flex-wrap
   - align-items
   - align-content
-# Flex ITem Properties
+# Flex Item Properties (items inside the container)
   - order
   - flex
   - flex-grow
