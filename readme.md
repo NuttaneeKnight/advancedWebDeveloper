@@ -389,5 +389,11 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   display: flex;
 }
 
-- Flex will shift everything to the same line and move towards the left
+- Flex will shift everything to the same line (one liner) and move towards the left
 
+# Important Flexbox Terminology
+
+- Flex container > The whole box that has everything in it
+- Main Axis > The line that goes from left to right (across)
+- Cross Axis > The line that goes up and down 
+- Flex item > the item that is inside the flex container that we want to move around. Think pictures, words, etc. 
