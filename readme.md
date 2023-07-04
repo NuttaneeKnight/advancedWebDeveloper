@@ -406,3 +406,7 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - flex-direction: column; > making the content into a column. 
   ***When it's a column the cross axis moves horizontally with the flex items. While the main axist move vertically***
 - flex-direction: column-reverse; > same as column but in reverse order
+
+# Flex-wrap
+
+- flex-wrap > specifies whether items are forced into a single line OR  can be "wrapped into multiple lines"
