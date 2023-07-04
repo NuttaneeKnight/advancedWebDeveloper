@@ -428,4 +428,4 @@ Add flex-wrap to our flex container
 
 # Justify-content
 
-- justify-content > Defines how space is distributed between items in flex container "Along the main axis"
+- justify-content > Defines how space is distributed between items in flex container "Along the main axis" (Just follows the flex items around technically)
