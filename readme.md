@@ -429,3 +429,21 @@ Add flex-wrap to our flex container
 # Justify-content
 
 - justify-content > Defines how space is distributed between items in flex container "Along the main axis" (Just follows the flex items around technically)
+
+.container {
+  justify-content: center;
+}
+
+*** [   1234    ] ***
+
+.container {
+  justify-content: space-between;
+} Takes the space in between and divide it among the flex items
+
+*** [1  2   3   4] ***
+
+.container {
+  justify-content: space-around;
+}
+
+*** [ 1   2   3   4 ] ***
