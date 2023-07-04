@@ -401,6 +401,8 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 # Flex-direction
 
 - flex-direction > specifies how items are placed in the flex container, defining the "main axis" and its "direction"
-- flex-direction: row > this is default from left to right arrangement
-- flex-direction: row-reverse > hence the same goes the other way around right to left
-- 
+- flex-direction: row; > this is default from left to right arrangement
+- flex-direction: row-reverse; > hence the same goes the other way around right to left
+- flex-direction: column; > making the content into a column. 
+  ***When it's a column the cross axis moves horizontally with the flex items. While the main axist move vertically***
+- flex-direction: column-reverse; > same as column but in reverse order
