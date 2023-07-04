@@ -387,7 +387,7 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 .container {
   display: flex;
-}
+} ***Hence this will become a FLEX CONTAINER*** see the definition below. 
 
 - Flex will shift everything to the same line (one liner) and move towards the left
 
