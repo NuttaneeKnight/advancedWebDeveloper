@@ -394,6 +394,13 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 # Important Flexbox Terminology
 
 - Flex container > The whole box that has everything in it
-- Main Axis > The line that goes from left to right (across)
-- Cross Axis > The line that goes up and down 
+- Main Axis > The horizontal line that goes from left to right (across by default but it doesn't have to be)
+- Cross Axis > The vertical line that goes up and down 
 - Flex item > the item that is inside the flex container that we want to move around. Think pictures, words, etc. 
+
+# Flex-direction
+
+- flex-direction > specifies how items are placed in the flex container, defining the "main axis" and its "direction"
+- flex-direction: row > this is default from left to right arrangement
+- flex-direction: row-reverse > hence the same goes the other way around right to left
+- 
