@@ -382,3 +382,12 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   - flex-grow
   - flex-shrink
   - align-self
+
+# First bit of Magic
+
+.container {
+  display: flex;
+}
+
+- Flex will shift everything to the same line and move towards the left
+
