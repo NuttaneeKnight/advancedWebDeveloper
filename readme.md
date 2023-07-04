@@ -410,3 +410,22 @@ Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 # Flex-wrap
 
 - flex-wrap > specifies whether items are forced into a single line OR  can be "wrapped into multiple lines"
+- Let's make out boxes much larger
+
+.box {
+  width: 300 px
+}
+
+***This won't changed*** Because it has a flex wrap that made more sence for it to wrap inside the flex container
+
+Add flex-wrap to our flex container
+
+.container {
+  flex-wrap: wrap; (wrap-reverse, row-reverse)
+}
+
+***When you set the "flex-wrap" inside the flex container then it will be wrapped inside the size that you set and the container won't force the size (conflicts)***
+
+# Justify-content
+
+- justify-content > Defines how space is distributed between items in flex container "Along the main axis"
