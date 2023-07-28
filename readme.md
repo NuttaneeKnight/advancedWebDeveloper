@@ -450,4 +450,10 @@ Add flex-wrap to our flex container
 
 # Align-items
 - Defines how space is distributed between items in flex container
-***Along the cross axis***
+***Along the cross axis*** cross axis = top to bottom 
+
+.container {
+  align-items: flex-start;
+}
+
+
