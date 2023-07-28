@@ -453,7 +453,15 @@ Add flex-wrap to our flex container
 ***Along the cross axis*** cross axis = top to bottom 
 
 .container {
-  align-items: flex-start;
+  align-items: flex-start; //end, stretch, center, baseline
 }
+- Baseline = Allow us to align items accordingly to the text (font sizes)
+
+# Align-content
+- Defines how space is distributed BETWEEN ROWS in flex container Along the cross axis
+
+
+
+
 
 
