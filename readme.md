@@ -447,3 +447,7 @@ Add flex-wrap to our flex container
 }
 
 *** [ 1   2   3   4 ] ***
+
+# Align-items
+- Defines how space is distributed between items in flex container
+***Along the cross axis***
