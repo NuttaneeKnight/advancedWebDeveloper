@@ -464,6 +464,18 @@ Add flex-wrap to our flex container
   align-content: flex-start; //end, stretch, center, baseline
 }
 
+# Align-Self
+- allows you ti overides align-items on idividual flex items
 
+- It's the way to overide align items
+
+.container {
+  align-items: flex-start;
+}
+.container {
+  .box-2 {
+    align-self: flex-end; This rule will overides the rule above and will show in the bottom of the axis
+  }
+}
 
 
