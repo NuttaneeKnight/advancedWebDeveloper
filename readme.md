@@ -484,5 +484,11 @@ Add flex-wrap to our flex container
   .box-1 {
     order: 2
   }
+- All items by default have an order of 0
+- to make box-1 second in line, check the code below
+
+.box-1 {order: 2;}
+.box-2 {order: 1;}
+.box-3, .box-4 {order: 3}
 
 
