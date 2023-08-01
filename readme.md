@@ -491,4 +491,17 @@ Add flex-wrap to our flex container
 .box-2 {order: 1;}
 .box-3, .box-4 {order: 3}
 
+# Flex
+- Uses when you want to expand your item sizes differently in the container
+- Defines how a fles item will grow or shrink to fit the available space in a container. 
+- It's actually a shorthand property for 3 other properties
+
+- flex: 
+  <'flex-grow'>
+    <'flex-shrink'>
+      <'flex-basis'>
+
+# Flex-basis
+- Sort of like width, but not
+- Specifies the ideal size of a flex item. Before it's placed into a flex container. 
 
