@@ -478,4 +478,11 @@ Add flex-wrap to our flex container
   }
 }
 
+# Order
+- Specifies the order used to lay out items in their flex container
+- Assign it  to the induvidual items 
+  .box-1 {
+    order: 2
+  }
+
 
