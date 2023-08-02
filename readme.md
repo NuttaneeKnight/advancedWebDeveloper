@@ -526,3 +526,19 @@ Add flex-wrap to our flex container
 - https://en.wikipedia.org/wiki/Holy_grail_(web_design)
 - https://codepen.io/Colt/pen/pryaJr?editors=1100
 
+
+# Attacking the holy grail by diving them into 3 flex boxes and make the midle one to be flex:item properties to shrink and wrap or basis them
+- body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+main {
+  display: flex;
+}
+
+header, footer {
+  background: blue;
+}
