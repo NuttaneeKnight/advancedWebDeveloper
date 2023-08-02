@@ -518,3 +518,6 @@ Add flex-wrap to our flex container
 
 # Flex-shrink
 - Dictates how items should shrink when there isn't enough space in container
+
+# Build Polygon
+- https://codepen.io/Colt/pen/oexwvb
