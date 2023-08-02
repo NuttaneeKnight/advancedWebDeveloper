@@ -528,7 +528,8 @@ Add flex-wrap to our flex container
 
 
 # Attacking the holy grail by diving them into 3 flex boxes and make the midle one to be flex:item properties to shrink and wrap or basis them
-- body {
+
+body {
   display: flex;
   margin: 0;
   flex-direction: column;
@@ -537,8 +538,28 @@ Add flex-wrap to our flex container
 
 main {
   display: flex;
+  flex-basis: 800px;
+}
+
+nav {
+  flex-basis: 20%;
+  background: orange;
+  order: -1;
+}
+
+aside {
+  flex-basis: 20%;
+  background: yellow;
+}
+article {
+  flex-basis: 60%;
+  background: teal;
+  flex-grow: 1; 
+  
 }
 
 header, footer {
   background: blue;
+  flex-basis: 100px;
 }
+
