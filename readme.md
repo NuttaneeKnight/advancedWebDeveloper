@@ -500,6 +500,7 @@ Add flex-wrap to our flex container
   <'flex-grow'>
     <'flex-shrink'>
       <'flex-basis'>
+- Short hand => flex: 1 1 200px
 
 # Flex-basis
 - Sort of like width, but not
@@ -512,3 +513,8 @@ Add flex-wrap to our flex container
 .box {
   flex-grow: 1;
 }
+
+// Can go into the individual item to fill in the space for that specific item in the components.
+
+# Flex-shrink
+- Dictates how items should shrink when there isn't enough space in container
