@@ -505,3 +505,10 @@ Add flex-wrap to our flex container
 - Sort of like width, but not
 - Specifies the ideal size of a flex item. Before it's placed into a flex container. 
 
+# Flex-grow
+- Dictates how the unused space should be spread amongst flex items
+- To make all boxes share space evenly..
+
+.box {
+  flex-grow: 1;
+}
