@@ -524,6 +524,7 @@ Add flex-wrap to our flex container
 
 # Exercise Holy Grail Layout
 - https://en.wikipedia.org/wiki/Holy_grail_(web_design)
+- try: https://codepen.io/Colt/pen/mMPXEy?editors=1100
 - https://codepen.io/Colt/pen/pryaJr?editors=1100
 
 
