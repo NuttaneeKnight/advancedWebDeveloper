@@ -537,26 +537,41 @@ body {
   min-height: 100vh; 
 }
 
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+main > *, header, footer {
+  margin: 4px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+/* angor tag */
+a {
+  text-decoration: none;
+  color: grey;
+}
+
 main {
   display: flex;
   flex-basis: 800px;
 }
 
 nav {
-  flex-basis: 20%;
+  flex: 1 1 20%;
   background: orange;
   order: -1;
 }
 
 aside {
-  flex-basis: 20%;
+  flex: 1 1 20%;
   background: yellow;
 }
 article {
-  flex-basis: 60%;
+  flex: 4 0 60%;
   background: teal;
-  flex-grow: 1; 
-  
 }
 
 header, footer {
@@ -576,4 +591,3 @@ header, footer {
     flex-basis: 50px; 
   }
 }
-
