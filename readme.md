@@ -564,3 +564,16 @@ header, footer {
   flex-basis: 100px;
 }
 
+@media all and (max-width:640px) {
+  main {
+    flex-direction:column;
+    flex-grow: 1;
+  }
+  nav {
+    order: 0;
+  }
+  header, footer {
+    flex-basis: 50px; 
+  }
+}
+
