@@ -591,3 +591,8 @@ header, footer {
     flex-basis: 50px; 
   }
 }
+
+# Flexbox browser support
+- Pretty much all the new browsers supports it now
+- If not go to Autoprefixer CSS for cross references
+
