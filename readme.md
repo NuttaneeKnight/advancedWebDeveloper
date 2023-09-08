@@ -598,4 +598,4 @@ header, footer {
 
 # Mountain Travel (Build Project)
 - https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox
-
+- Go to the other folder for this project
