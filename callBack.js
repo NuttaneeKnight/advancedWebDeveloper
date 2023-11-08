@@ -26,3 +26,30 @@ higherOrder(callback);
  * - AJAX Requests
  * - React Development 
  */
+
+// Codes without callbacks
+function sendMessageConsole(message) {
+  console.log(message)
+}
+
+function sendMessageAlert(message) {
+  alert(message)
+}
+
+function sendMessageConfirm(message) {
+  return confirm(message)
+}
+
+sendMessageAlert('Lots of duplication')
+
+// Same code refactor with callbacks
+function sendMessage(message, callback) {
+  return callback(message)
+}
+
+sendMessage('Message for console', console.log)
+
+sendMessage('Message for alert', alert)
+
+var answer = sendMessage('Are you sure??', confirm)
+
