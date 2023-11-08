@@ -43,6 +43,7 @@ function sendMessageConfirm(message) {
 sendMessageAlert('Lots of duplication')
 
 // Same code refactor with callbacks
+// This is a higheroerder function
 function sendMessage(message, callback) {
   return callback(message)
 }
@@ -53,3 +54,13 @@ sendMessage('Message for alert', alert)
 
 var answer = sendMessage('Are you sure??', confirm)
 
+// Callbacks with Function Declarations
+function greet(name, formatter) {
+  return "Hello, " + formatter(name)
+}
+
+function upperCaseName(name) {
+  return name.toUpperCase();
+}
+
+greet('Tim', upperCaseName)
