@@ -18,3 +18,11 @@ function higherOrder(fn) {
 }
 // node callback.js
 higherOrder(callback);
+
+/** 
+ * What are callbacks used for?
+ * - Advanced Array Methods
+ * - Browser events
+ * - AJAX Requests
+ * - React Development 
+ */
