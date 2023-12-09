@@ -77,7 +77,6 @@
 // });
 
 // Print Array Values Doubled
-
 var arr = [1, 2, 3, 4, 5, 6];
 function double(arr) {
   for (var i = 0; i < arr.length; i++) {
@@ -85,3 +84,24 @@ function double(arr) {
   }
 }
 double(arr)
+
+// Refactor with forEach
+// Callback signature
+function callback(curElement, currentIndex, array) {
+  //implement forEach
+}
+forEach(arr, function(arr) {
+  console.log(number * 2)
+})
+
+// forEach Example with all callback PArameters
+var strings = ['my', 'forEach', 'example']
+
+var result = ''
+forEach(strings, function(str, index, array) {
+  if (array.length -1 !== index) {
+    result += str + ' '
+  } else {
+    result += str + "!!!"
+  }
+})
