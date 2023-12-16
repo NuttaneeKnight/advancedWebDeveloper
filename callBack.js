@@ -114,3 +114,9 @@ function forEach(arr, callback) {
   }
 }
 
+// findIndex Definition 
+// Returns the index of the first element in the array for which the call back returns a truthy value. -1 is returns a truthy value. 
+
+function findIndex(array, callback) {
+  // findIndex code to be implemented
+}
