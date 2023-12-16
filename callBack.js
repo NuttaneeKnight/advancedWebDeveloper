@@ -113,3 +113,4 @@ function forEach(arr, callback) {
     callback(arr[i], i, arr)
   }
 }
+
