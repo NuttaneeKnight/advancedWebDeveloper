@@ -120,3 +120,13 @@ function forEach(arr, callback) {
 function findIndex(array, callback) {
   // findIndex code to be implemented
 }
+
+function callback(curElement, curIndex, array) [
+  // callback implemented by caller of function 
+]
+
+var arr = [3, 4, 6, 2, 1]
+findIndex(arr, function(num, index, array) {
+  return num === 6;
+})
+
