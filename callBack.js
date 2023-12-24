@@ -107,34 +107,34 @@
 // }) // 'my forEach example!!!'
 
 
-// Sample
-function forEach(arr, callback) {
-  for (var i = 0; i < arr.length; i++) {
-    callback(arr[i], i, arr)
-  }
-}
+// // Sample
+// function forEach(arr, callback) {
+//   for (var i = 0; i < arr.length; i++) {
+//     callback(arr[i], i, arr)
+//   }
+// }
 
 // findIndex Definition 
 // Returns the index of the first element in the array for which the call back returns a truthy value. -1 is returns a truthy value. 
 
-function findIndex(array, callback) {
-  // findIndex code to be implemented
-}
+// function findIndex(array, callback) {
+//   // findIndex code to be implemented
+// }
 
-function callback(curElement, curIndex, array) [
-  // callback implemented by caller of function 
-]
+// function callback(curElement, curIndex, array) [
+//   // callback implemented by caller of function 
+// ]
 
-var arr = [3, 4, 6, 2, 1]
-findIndex(arr, function(num, index, array) {
-  return num === 6;
-})
+// var arr = [3, 4, 6, 2, 1]
+// findIndex(arr, function(num, index, array) {
+//   return num === 6;
+// })
 
-// ex. findIndex, find first even 
-var arr = [5, 11, 13, 8, 6, 7];
-findIndex(arr, function(num, index, array) {
-  return num % 2 === 0
-})
+// // ex. findIndex, find first even 
+// var arr = [5, 11, 13, 8, 6, 7];
+// findIndex(arr, function(num, index, array) {
+//   return num % 2 === 0
+// })
 
-
+// find
 
