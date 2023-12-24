@@ -136,10 +136,19 @@
 //   return num % 2 === 0
 // })
 
-// findIndex Example: Could Not Find
+// // findIndex Example: Could Not Find
+// var langs = ["Java", "C++", "Python", "Ruby"];
+// findIndex(langs, function(lang, index, arr) {
+//   return lang === "JavaScript";
+// }) 
 
-var langs = ["Java", "C++", "Python", "Ruby"];
-findIndex(langs, function(lang, index, arr) {
-  return lang === "JavaScript";
-})
+// function findIndex(arr, callback) {
+//   for (var i = 0; i < arr.length; i++) {
+//     if (callback(arr[i], i, arr)) {
+//       return i;
+//     }
+//   }
+//   return -1;
+// }
+
 
