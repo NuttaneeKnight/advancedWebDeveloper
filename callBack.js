@@ -151,4 +151,18 @@
 //   return -1;
 // }
 
-
+/**
+ * The Stack and the Heap
+ * 
+ * Objectives
+ * 
+ * - Describe what the stack is
+ * - Describe a stack frame
+ * - Describe the heap
+ * 
+ * What is the Stack?
+ * - An ordered data structure
+ * - Keep track of function invocations
+ * - PArt of the JAvaScript runtime (you don't access it directly)
+ * 
+ */
