@@ -171,3 +171,18 @@
  * - Whenever a function returns, the information about the invocation is taken off the top of the stack (popped off of the top)
  * 
  */
+
+// Stack Example
+// const multiply = (x, y) => {
+//   return x * y;
+// }
+// var res = multiply(3,5)
+// console.log(res)
+
+// 179 - function:main 
+// 177 - function: multiply
+// popped 177 popped off the stack
+// then popped 179
+// Now the runtime is empty and is waiting for something to do hence another stack
+
+
