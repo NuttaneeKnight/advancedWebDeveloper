@@ -106,7 +106,6 @@
 //   }
 // }) // 'my forEach example!!!'
 
-
 // // Sample
 // function forEach(arr, callback) {
 //   for (var i = 0; i < arr.length; i++) {
@@ -114,15 +113,15 @@
 //   }
 // }
 
-// findIndex Definition 
-// Returns the index of the first element in the array for which the call back returns a truthy value. -1 is returns a truthy value. 
+// findIndex Definition
+// Returns the index of the first element in the array for which the call back returns a truthy value. -1 is returns a truthy value.
 
 // function findIndex(array, callback) {
 //   // findIndex code to be implemented
 // }
 
 // function callback(curElement, curIndex, array) [
-//   // callback implemented by caller of function 
+//   // callback implemented by caller of function
 // ]
 
 // var arr = [3, 4, 6, 2, 1]
@@ -130,7 +129,7 @@
 //   return num === 6;
 // })
 
-// // ex. findIndex, find first even 
+// // ex. findIndex, find first even
 // var arr = [5, 11, 13, 8, 6, 7];
 // findIndex(arr, function(num, index, array) {
 //   return num % 2 === 0
@@ -140,7 +139,7 @@
 // var langs = ["Java", "C++", "Python", "Ruby"];
 // findIndex(langs, function(lang, index, arr) {
 //   return lang === "JavaScript";
-// }) 
+// })
 
 // function findIndex(arr, callback) {
 //   for (var i = 0; i < arr.length; i++) {
@@ -153,23 +152,23 @@
 
 /**
  * The Stack and the Heap
- * 
+ *
  * Objectives
- * 
+ *
  * - Describe what the stack is
  * - Describe a stack frame
  * - Describe the heap
- * 
+ *
  * What is the Stack?
  * - An ordered data structure
  * - Keep track of function invocations
  * - PArt of the JAvaScript runtime (you don't access it directly)
- * 
- * 
+ *
+ *
  * How Your Code Changes the Stack
  * - Whenever you invoke a function, the details of the invocation are saved to the top of the stack (pushed to the top)
  * - Whenever a function returns, the information about the invocation is taken off the top of the stack (popped off of the top)
- * 
+ *
  */
 
 // Stack Example
@@ -179,10 +178,19 @@
 // var res = multiply(3,5)
 // console.log(res)
 
-// 179 - function:main 
-// 177 - function: multiply
+// 179(line) - function:main
+// 177(line)- function: multiply
 // popped 177 popped off the stack
 // then popped 179
 // Now the runtime is empty and is waiting for something to do hence another stack
 
+/**
+ * Stack Frame Contents
+ * - The function that was invoked
+ * - The parameters that were passed to the function
+ * - Current line number
+ *
+ * Stack Definition
+ * - An ordered set if stack frames. Most recently invoked function is on the top of the stack. The bottom if the stack is the first function invoked. The stack is processed from top to bottom.
+ */
 
