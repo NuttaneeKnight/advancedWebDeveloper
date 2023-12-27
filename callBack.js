@@ -165,4 +165,9 @@
  * - Keep track of function invocations
  * - PArt of the JAvaScript runtime (you don't access it directly)
  * 
+ * 
+ * How Your Code Changes the Stack
+ * - Whenever you invoke a function, the details of the invocation are saved to the top of the stack (pushed to the top)
+ * - Whenever a function returns, the information about the invocation is taken off the top of the stack (popped off of the top)
+ * 
  */
