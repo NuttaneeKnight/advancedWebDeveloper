@@ -191,7 +191,7 @@
  * - Current line number
  *
  * Stack Definition
- * - An ordered set if stack frames. Most recently invoked function is on the top of the stack. 
+ * - An ordered set if stack frames. Most recently invoked function is on the top of the stack.
  * The bottom if the stack is the first function invoked. The stack is processed from top to bottom.
  */
 
@@ -270,6 +270,21 @@ Objectives:
 - Add a .catch callback to a promise
 - Wrap a setTimeout call in a promise
 
-
+Promise: Conceptually
+- A promise is an object that represents a task that will be completed in the future
+- Analogy: Taking a number at a government office before you can get helped. 
+  The piece of paper you get is like your promise. 
+  The help you get at the counter is like the invocation of your callback
 
 */
+
+// Promise example for both scenarios
+var p1 = new Promise(function (resolve, reject) {
+  reject("ERROR");
+});
+
+p1.then(function (data) {
+  console.log("Promise p1 resolved with data: ", data);
+}).catch(function (data) {
+  console.log("Promise p1 was rejected with data: ", data);
+});
