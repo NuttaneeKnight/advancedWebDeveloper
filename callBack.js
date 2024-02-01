@@ -191,7 +191,8 @@
  * - Current line number
  *
  * Stack Definition
- * - An ordered set if stack frames. Most recently invoked function is on the top of the stack. The bottom if the stack is the first function invoked. The stack is processed from top to bottom.
+ * - An ordered set if stack frames. Most recently invoked function is on the top of the stack. 
+ * The bottom if the stack is the first function invoked. The stack is processed from top to bottom.
  */
 
 /* 
@@ -216,10 +217,27 @@ How your code changes the stack
 // 5 var res =multiply(3, 5)
 
 /* 
-Stack: line by line
+Stack: Stack Frame - line by line
 
-2 function: multiply 
-5 function: main
+2 function: multiply (popped) Taken off from the top of the stack 
+5 function: main js runtime will take main off the stack
 
+** Now the stack will be empty and ready for another task. 
+
+Stack Frame Content
+- The function that was invoked
+- The parameter that were passed to the function
+- Current line number
+
+Stack Definition
+- An ordered set of stack frames. Most recently invoked function is on the top of the stack. 
+The bottom of the stack is the first function invoked. The stack is processed from top to bottom
+
+Heap Definition
+- An area in memory where your data is stored
+
+The object is created in the heap. obj is a reference to the object.
+var obj = {firstName: 'Tim',
+            lastName: 'Garcia'};
 
 */
