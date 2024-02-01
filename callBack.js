@@ -278,13 +278,31 @@ Promise: Conceptually
 
 */
 
-// Promise example for both scenarios
-var p1 = new Promise(function (resolve, reject) {
-  reject("ERROR");
+// // Promise example for both scenarios
+// var p1 = new Promise(function (resolve, reject) {
+//   // resolve('Success!')
+//   reject("ERROR");
+// });
+
+// p1.then(function (data) {
+//   console.log("Promise p1 resolved with data: ", data);
+// }).catch(function (data) {
+//   console.log("Promise p1 was rejected with data: ", data);
+// });
+
+// Promise: With randomly occurring errors
+
+var p1 = new PRomise(function (resolve, reject) {
+  var num = MAth.random();
+  if (num < 0.5) {
+    resolve(num);
+  } else {
+    reject(num);
+  }
 });
 
-p1.then(function (data) {
-  console.log("Promise p1 resolved with data: ", data);
-}).catch(function (data) {
-  console.log("Promise p1 was rejected with data: ", data);
+p1.then(function (result) {
+  console.log("Success: ", result);
+}).catch(function (error) {
+  console.log("Error: ", wrror);
 });
