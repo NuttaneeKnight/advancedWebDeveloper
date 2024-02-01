@@ -196,7 +196,16 @@
 
 /* 
 Objective:
-- Describe what the stack is
+- Describe what the stack is:
+  - An ordered data structure
+  - Keeps track of function invocations
+  - Part of the Javascript runtime (you don't access it directly)
 - Describe a stack frame
 - Describe the heap
+
+How your code changes the stack
+- Whenever you invoke a function, the details of the invocation are saved to the top of the stack (pushed to the top)
+- Whenever a function returns, the information about the invocation is taken off the top f the stack
 */
+
+// Stack Example
