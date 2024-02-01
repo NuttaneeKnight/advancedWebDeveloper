@@ -256,4 +256,12 @@ The Queue:
 The Event Loop:
 - Functionality in the JacaScript runtime that checks the queue when the stack is empty
 - If the stack is empty, the front of the queue is placed in the stack
+
+JavaScript is Single Threaded:
+- Single Threaded: Code execution is linear. 
+  Code that is running cannot be interrupted by something else going on in the program. s
+*/
+
+/*  
+
 */
