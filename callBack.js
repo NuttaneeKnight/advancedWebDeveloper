@@ -241,3 +241,19 @@ var obj = {firstName: 'Tim',
             lastName: 'Garcia'};
 
 */
+
+/* Event Loop and the Queue
+
+Objective:
+- Define the event loop and the queue
+- Describe how the event loop and the queue work with the stack 
+- Define Javascript as a single threaded language
+
+The Queue:
+- An ordered listed of functions waiting to be placed on the stack
+- Functions in the queue are processed on a first in, first out basis (FIFO)
+
+The Event Loop:
+- Functionality in the JacaScript runtime that checks the queue when the stack is empty
+- If the stack is empty, the front of the queue is placed in the stack
+*/
