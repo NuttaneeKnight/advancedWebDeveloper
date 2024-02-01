@@ -259,9 +259,17 @@ The Event Loop:
 
 JavaScript is Single Threaded:
 - Single Threaded: Code execution is linear. 
-  Code that is running cannot be interrupted by something else going on in the program. s
+  Code that is running cannot be interrupted by something else going on in the program. 
 */
 
-/*  
+/* Promise Basics
+
+Objectives:
+- Define a promise
+- Add a .then callback to a promise
+- Add a .catch callback to a promise
+- Wrap a setTimeout call in a promise
+
+
 
 */
