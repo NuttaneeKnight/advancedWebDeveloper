@@ -290,19 +290,30 @@ Promise: Conceptually
 //   console.log("Promise p1 was rejected with data: ", data);
 // });
 
-// Promise: With randomly occurring errors
+// // Promise: With randomly occurring errors
+// var p1 = new Promise(function (resolve, reject) {
+//   var num = Math.random();
+//   if (num < 0.5) {
+//     resolve(num);
+//   } else {
+//     reject(num);
+//   }
+// });
 
-var p1 = new PRomise(function (resolve, reject) {
-  var num = MAth.random();
-  if (num < 0.5) {
-    resolve(num);
-  } else {
-    reject(num);
-  }
+// p1.then(function (result) {
+//   console.log("Success: ", result);
+// }).catch(function (error) {
+//   console.log("Error: ", error);
+// });
+
+// Wrap setTimeout with Promise
+var promise = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    var randomInt = Math.floor(Math.random() * 10);
+    resolve(randomInt);
+  }, 4000);
 });
 
-p1.then(function (result) {
-  console.log("Success: ", result);
-}).catch(function (error) {
-  console.log("Error: ", wrror);
+promise.then(function (data) {
+  console.log("Random int passed to resolve: ", data);
 });
