@@ -208,4 +208,18 @@ How your code changes the stack
 - Whenever a function returns, the information about the invocation is taken off the top f the stack
 */
 
-// Stack Example
+// // Stack Example
+// 1 function multiply(x, y) {
+// 2  return x * y;
+// 3 }
+// 4
+// 5 var res =multiply(3, 5)
+
+/* 
+Stack: line by line
+
+2 function: multiply 
+5 function: main
+
+
+*/
