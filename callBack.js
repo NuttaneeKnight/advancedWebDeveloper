@@ -194,3 +194,9 @@
  * - An ordered set if stack frames. Most recently invoked function is on the top of the stack. The bottom if the stack is the first function invoked. The stack is processed from top to bottom.
  */
 
+/* 
+Objective:
+- Describe what the stack is
+- Describe a stack frame
+- Describe the heap
+*/
