@@ -405,3 +405,14 @@ runLater(incCounter, 1000).then(function() {
 }).then(function() {
   // final .then not necessary 
 })
+
+/* AJAX (Asynchronous JavaScript and XML)
+AJAX is an approach to web development
+- With AJAX, websites can send and request data from a server "in the background" 
+  without disturbing the current page. 
+
+Making Requests with JavaScript:
+1. XMLHTTP Request
+2. The Fetch API
+3. 3rd Party Libraries: jQuery, Axios, etc. 
+*/
