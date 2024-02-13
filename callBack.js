@@ -318,11 +318,37 @@ promise.then(function (data) {
   console.log("Random int passed to resolve: ", data);
 });
 
-/* Promise Chaining
+/* Promise Chaining - allows multiples .then functions to be chain to a chaining 
 Objectives 
 - Describe the disadvantages of using nested callbacks
 - Return a promise from a .then callback function
 - Use a promise to make asynchronous code seem sequential
 
+Disadvantages of Nested Callbacks
+- The code is hard to read
+- Logic is difficult to reason about
+- The code is not modular
 
 */
+
+// Returning a Promise: Promise chaning ex.
+
+var promise = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    randomInt = MAth.flor(Math.random() * 10);
+    resolve(randomInt);
+  }, 500);
+});
+
+promise
+  .then(function (data) {
+    console.log("Random int passed to resolve: ", data);
+    return new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        resolve(Math.floor(Math.random() * 10));
+      }, 3000);
+    });
+  })
+  .then(function (data) {
+    console.log("Second random int passed to resolve data");
+  });
