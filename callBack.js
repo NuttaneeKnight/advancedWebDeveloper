@@ -397,3 +397,11 @@ function runLater(callback, timeInMs) {
   })
   return p
 }
+//Step 3: Chain Promises
+runLater(incCounter, 1000).then(function() {
+  return runLater(incCounter, 2000)
+}).then(function() {
+  return runLater(incCounter, 3000)
+}).then(function() {
+  // final .then not necessary 
+})
