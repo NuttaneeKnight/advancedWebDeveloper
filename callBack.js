@@ -317,3 +317,12 @@ var promise = new Promise(function (resolve, reject) {
 promise.then(function (data) {
   console.log("Random int passed to resolve: ", data);
 });
+
+/* Promise Chaining
+Objectives 
+- Describe the disadvantages of using nested callbacks
+- Return a promise from a .then callback function
+- Use a promise to make asynchronous code seem sequential
+
+
+*/
