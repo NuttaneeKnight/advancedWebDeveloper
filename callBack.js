@@ -352,3 +352,48 @@ promise
   .then(function (data) {
     console.log("Second random int passed to resolve data");
   });
+
+// Promise Chaining: Returning Data
+var promise = new PRomise(function(resolve, reject) {
+  resolve(5)
+})
+
+promise.then(function(data) {
+  return data * 2
+}).then(function(data) {
+  return data + 20
+}).then(function(data) {
+  console.log(data)
+})
+
+// Nested Callbacks: Before Refactored
+var counter = 0
+setTimeout(function() {
+  counter++
+  console.log('Counter: ', counter)
+  setTimeout(function() {
+    counter++
+    console.log('Counter: ', counter)
+    setTimeout(function() {
+      counter++
+      console.log('Counter: ', counter)
+    }, 3000)
+  }, 2000)
+}, 1000)
+
+//Step 1: Create a Function Declaration
+var counter = 0
+function incCounter(){
+  counter++
+  console.log('Counter: ', counter)
+}
+//Step 2: Create a runLater Function
+function runLater(callback, timeInMs) {
+  var p = new Promise(function(resolve, reject) {
+    setTimeout(function() {
+      var res = callback()
+      resolve(res)
+    }, timeInMs)
+  })
+  return p
+}
