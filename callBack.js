@@ -415,4 +415,13 @@ Making Requests with JavaScript:
 1. XMLHTTP Request
 2. The Fetch API
 3. 3rd Party Libraries: jQuery, Axios, etc. 
+
+XML and JSON (data format)
+
+Data Formats
+- API's don't respond with HTML. API's respond with pure data, not structure
+  They use more efficient data formats like XML and JSON
+
+
 */
+
