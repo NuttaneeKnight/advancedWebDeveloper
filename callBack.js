@@ -424,9 +424,15 @@ JSON: JavaScript Object Notation. Looks almost like js objects
 Data Formats
 - API's don't respond with HTML. API's respond with pure data, not structure
   They use more efficient data formats like XML and JSON
-
-
 */
 
+// XMLHTTP Requests Sample
 
-
+var XHR = new XMLHttpRequest();
+XHR.onreadystatechange = function() {
+  if (XHR.readyState == 4 && XHR.status == 200) {
+    console.log(XHR.responseText)
+  }
+}
+XHR.open('GET', 'http://api.github.com/zen')
+XHR.send()
