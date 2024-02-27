@@ -418,7 +418,8 @@ Making Requests with JavaScript:
 
 XML and JSON (data format)
 
-XML is syntatically similar to HTML, but it doesn't describe presentation like HTML does.
+XML: is syntatically similar to HTML, but it doesn't describe presentation like HTML does. Only Data.
+JSON: JavaScript Object Notation. Looks almost like js objects
 
 Data Formats
 - API's don't respond with HTML. API's respond with pure data, not structure
