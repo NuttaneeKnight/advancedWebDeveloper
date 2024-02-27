@@ -426,13 +426,62 @@ Data Formats
   They use more efficient data formats like XML and JSON
 */
 
-// XMLHTTP Requests Sample
-
+// XMLHTTP Requests Sample (axios (lib) is using this)
 var XHR = new XMLHttpRequest();
-XHR.onreadystatechange = function() {
-  if (XHR.readyState == 4 && XHR.status == 200) {
+XHR.onreadystatechange = function() { // event listener
+  if (XHR.readyState == 4 && XHR.status == 200) { // 4 is state done
     console.log(XHR.responseText)
   }
 }
-XHR.open('GET', 'http://api.github.com/zen')
+XHR.open('GET', 'https://api.github.com/zen')
 XHR.send()
+
+/* 
+
+HTML:
+<div class="container">
+  <h1>Welcome To Random Dog Pictures</h1>
+   <img id="photo" src="https:\/\/dog.ceo\/api\/img\/deerhound-scottish\/n02092002_6780.jpg" alt="">
+  <button id="btn">Get Random Dog!</button>
+</div>
+
+CSS:
+img {
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 20px;
+}
+
+JavaScript:
+var btn = document.querySelector('#btn');
+var img = document.querySelector('#photo')
+
+// listen for clicks
+btn.addEventListener('click', function() {
+  // make the request
+  var XHR = new XMLHttpRequest();
+  
+  XHR.onreadystatechange = function() {
+    if (XHR.readyState == 4 && XHR.status == 200) {
+      var url = JSON.parse(XHR.responseText).message
+      img.src = url
+    }
+  }
+  
+  XHR.open('GET', 'https://dog.ceo/api/breeds/image/random')
+  XHR.send()
+});
+
+
+
+
+
+*/
