@@ -524,4 +524,5 @@ Problems with XHR
 2. It's 16 years old
 3. No Streaming
 
+Updated XHR: FETCH API
 */
