@@ -498,6 +498,7 @@ span {
 JS:
 var btn = document.querySelector('button');
 var priceDisp = document.querySelector('#price');
+var currency = 'USD';
 
 btn.addEventListener('click', function(){
   var XHR = new XMLHttpRequest();
@@ -505,8 +506,8 @@ btn.addEventListener('click', function(){
   XHR.onreadystatechange = function () {
     if (XHR.readyState == 4 && XHR.status == 200) {
       var data = JSON.parse(XHR.responseText)
-      var price = data.bpi.GBP.rate
-      priceDisp.innerText = price + ' GBP'; 
+      var price = data.bpi[currency].rate
+      priceDisp.innerText = price + ' ' + currency; 
     }
   }
   
