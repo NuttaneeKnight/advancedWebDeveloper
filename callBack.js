@@ -517,3 +517,11 @@ btn.addEventListener('click', function(){
 })
 
 */
+
+/* 
+Problems with XHR
+1. Ugly, Bulky Syntax
+2. It's 16 years old
+3. No Streaming
+
+*/
