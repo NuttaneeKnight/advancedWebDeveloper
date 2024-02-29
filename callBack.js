@@ -480,8 +480,22 @@ btn.addEventListener('click', function() {
   XHR.send()
 });
 
+*/
 
+/* Build Bitcoin with the bitcoin api: https://www.coindesk.com/api/
+ endpoint: https://api.coindesk.com/v1/bpi/currentprice.json
 
+HTML:
+<h1>Bitcoin Current Price is: <span id="price"></span></h1>
+
+<button>Refresh Data</button>
+
+CSS:
+span {
+  color: green;
+}
+
+JS:
 
 
 */
